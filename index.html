@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+       <head>
+<meta charset="utf-8" />
+<!-- Definição da codificação de caracteres, neste casa UTF-8. -->
+<meta http-equiv="content-language" content="pt" />
+<!-- Definição da Linguagem. Neste caso, definiu-se como PT, que é português. -->
+
+             <title>Client-Side: HTML, CSS, JavaScript | Desenvolvimento Web: O céu e o limite:</title>
+             <!-- Título da Aba do Navegador. -->
+             
+             <meta name="description" content="No Site você vai encontrar artigos
+             referentes ao desenvolvimento Web ClientSide como HTML:       HTML5;
+             JavaScript; CSS3; e JQuery" />
+             <!-- Descrição do Site e entrada de palavra-chave, muito importantes
+             para que os site obtenha boa pontuação pelos robôs de busca. -->
+             <meta name="keywords" content="JavaScript, CSS3, HTML5,   JQuery" />
+             
+             <meta name="author" content="Helena Domingues" >
+             <!-- A Tag meta name author, serve para colocar o nome do Autor   do
+             Site.-->
+             
+             <script type="text/javascript" src="js/comportamento.js"></script>
+             <!-- Definição do arquivo JavaScript e CSS, que serão     utilizados
+             para a estilização e formatação deste documento HTML. -->
+             
+             <script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
+             <!-- Definição do arquivo JavaScript e CSS, que serão     utilizados
+             para a estilização e formatação deste documento HTML. -->
+             
+             <link rel="stylesheet" type="text/css" media="screen" href="css/estilos.css" />
+             <!-- Definição do arquivo JavaScript e CSS, que serão     utilizados
+             para a estilização e formatação deste documento HTML. -->
+                        
+       </head>
+
+       <body>
+             
+             <div id="geral">
+                 <div id="cabecalho">
+                     <div id="logotipo">
+                         <a href="/clientside/index.php">
+                            <img src="img/logo_clientside.gif" title="Logo Client-Side"  alt="Logo Client-Side" border="0" />
+                         </a>
+                     </div>
+                     <div id="menu">
+                         <ul>
+                             <li><a href="/clientside/index.php">Home</a></li>
+                             <li>HTML</li>
+                             <li>CSS</li>                             
+                             <li>JavaScript</li>
+                             <li>jQuery</li>
+                             <li>Acessibilidade</li>
+                             <li>Usabilidade</li>
+                             <li><a href="index.php?pag=fale-conosco">Contato</a></li>                                
+                         </ul>
+                     </div>
+             </div>
+             <div id="corpo">
+                  <? $pag = $_GET['pag'];?>
+                  <? if($pag == ""){?>
+                  <div id="destaques">
+                      <div id="destaques_top">
+                          <div id="destaque_top_esquerda">
+                              <h1>HTML é o novo HTML5</h1>
+                              <p> Em 2009, a WHATIG anunciou que a  especificação
+                              do HTML5 estava em processo para a última chamada.O
+                              Plano nesta ocasião era de finalizar              a
+                              especificação e publicar o HTML5 em 2012. 
+                              Entretanto, a WHATIG percebeu que o HTML 4.01 ainda
+                              está em alta no mercado e há por grande parte   dos
+                              desenvolvedores uma boa demanda por novos  recursos
+                              para o HTML. 
+                              </p>
+             <img src="img/html-e-o-novo-html5.jpg" title="HTML é o novo HTML5" alt="HTML é o novo HTML5" />
+             <h1> O coração do jQuery</h1>
+             <p>
+             Para aproveitar  de todo o poder   do   jQuery   basta   usar      o
+             caractere $ e começar a programar.
+             </p>
+             <p>
+             O caractere $ é um apelido para o construtor jQuery que pode     ser
+             visto no exemplo abaixo:
+             </p>
+             <pre>jQuery();</pre>             
+             <p>
+             O código acima é o construtor do jQuery. No entanto para facilitar o
+             uso do jQuery, uma vez que dentro de todo o código JavaScript     de
+             um programa usa-se demasiadamente este computador, criou-se       um
+             apelido que é justamente o caractere $ que vimos anteriormente.
+             </p>
+             </div>
+             <div id="destaque_top_direita">
+             <h1>Conheça o CPT</h1>
+             <iframe title="YouTube video player" width="380" height="320" src="https://www.youtube.com/embed/3zVuBNfLCAg" frameborder="0" allowfullscreen></iframe>
+             <span class="legenda">
+             Cursos CPT: Um facilitador para a sua capacitação      profissional.
+             Clique aqui para saber mais detalhes.
+             </span>
+             <div id="destuque_top_direita_especial">
+             <div class="destaque_top_direita_dividido">
+             <h1>Palavras Reservada do JavaScript</h1>
+             <p>
+             Não é permitido, criar variáveis com nome de palavras da   Linguagem
+             de Programação JavaScript. Veja uma lista com toda estas    palavras
+             reservadas.
+             </p>
+             </div>
+             <div class="destaque_top_direita_dividido">
+             <h1>Qual a diferença entre pseudo classes e pseudo elementos.</h1>
+                
+             
+             <hr/>CLIENTSIDE.COM.BR @2011-2011. Todos os direitos reservados.                    
+             <!-- Definição da div com id=geral, que vai definir a      estrutura
+             geral do Site. -->
+             </div>
+          </div>
+       </body>
+
+</html>
