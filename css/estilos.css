@@ -28,3 +28,10 @@ pre{
     margin-top: 20px;
     border: #000 1px dotted;
 }
+/* Formatação do Menu Geral da página index.html*/
+#geral{
+width: 760px;
+margin: 0 auto;
+text-align: left;
+--background-color:red;
+}
