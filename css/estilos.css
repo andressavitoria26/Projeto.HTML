@@ -3,3 +3,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /*Zerando valores dos elementos */
 
 
+h1{
+font-weight: bold;
+font-size: 20px; /* Tamanho da font H1 */
+margin-bottom: 15px; /* Margem entre Título H1, e o início do Paragráfo.*/
+}
+img{margin-top: 10px; margin-bottom: 10px;}
+.legenda{
+    font-style: italic;
+    font-size: 12px;
+}
