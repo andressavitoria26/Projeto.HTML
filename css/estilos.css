@@ -35,3 +35,57 @@ margin: 0 auto;
 text-align: left;
 --background-color:red;
 }
+
+/*Formatação do MENU da 2ª Coluna, "Conheça o CPT.*/
+#cabecalho{}
+
+#logotipo{
+padding: 20px;
+}
+    #menu{
+background-color: #9b0000;
+color: #FFFFFF;
+padding: 15px;
+    
+/*Formatação do Menu Principal, Links Internos, HOME, Contado etc.*/
+#menu{
+background-color: #9b0000;
+color: #FFFFFF;
+padding: 15px;
+}
+
+#menu li{
+display: inline;
+margin-right: 35px;
+}
+
+/*Formatação para dividir o Site,em duas partes.*/
+#corpo{margin-top: 20px;}
+
+#destaque{}
+
+#destaque_top{}
+
+#destaque_top_esquerda{
+width: 370px;
+float: left;
+}
+
+#destaque_top_direita{
+width: 370px;
+float:left;
+margin-left: 10px;
+}
+/*Menu responsavel pela Formatação, do Títulos
+"Palavras Reservadas", "Qual a diferença...",
+formataem duas colunas*/
+#destuqe_top_direita_especial{
+margin-top: 10px;
+}
+
+.destaque_top_direita_dividido{
+width: 177px;
+float:left;
+padding-left: 4px;
+padding-right: 4px;
+}
