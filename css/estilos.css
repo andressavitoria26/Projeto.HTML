@@ -89,3 +89,26 @@ float:left;
 padding-left: 4px;
 padding-right: 4px;
 }
+
+#destaques_bottom{
+color:#FFF;
+clear:both;
+}
+
+#destaque_bottom_esquerda{
+width: 470px;
+background-color: #9b0000;
+padding: 40px;
+float: left;
+}
+
+#destaque_bottom_direita{
+width: 170px;
+background-color: #406db7;
+padding: 10px;
+float: left;
+margin-left: 20px;
+margin-bottom: 20px;
+text-align: center;
+}
+
