@@ -3,112 +3,111 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /*Zerando valores dos elementos */
 
 
+/* FORMATAÇÃO DO TÍTULO H1 */
 h1{
-font-weight: bold;
-font-size: 20px; /* Tamanho da font H1 */
-margin-bottom: 15px; /* Margem entre Título H1, e o início do Paragráfo.*/
+font-weight:bold;
+font-size:20px; /* Tamanho da fonte H1 */	
+margin-bottom: 15px; /* Margem entre Título H1, e o início do Paragrafo. */
 }
-img{margin-top: 10px; margin-bottom: 10px;}
+img{margin-top:10px; margin-bottom:10px;}
 .legenda{
-    font-style: italic;
-    font-size: 12px;
+font-style:italic; 
+font-size:12px;
 }
 
-/*Formatação do parágrafo*/
 
-p{margin-bottom: 10px;}
-
-pre{
-    background: #FEFFAF;
-    color:#000;
-    line-height: 18px;
-    margin-bottom: 18px;
-    padding: 1.5em;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    border: #000 1px dotted;
+/*Formatação do Paragrafo, do exemplo da Linguagem jQuery.*/
+p{margin-bottom:10px;}
+pre {
+	background: #FEFFAF;
+	color: #000;
+	line-height: 18px;
+	margin-bottom: 18px;
+	padding: 1.5em;
+	margin-bottom:20px;
+	margin-top:20px;
+	border: #000 1px dotted;
 }
-/* Formatação do Menu Geral da página index.html*/
+/* Formatação do MENU Geral da página index.html */
 #geral{
-width: 760px;
-margin: 0 auto;
-text-align: left;
+width:760px;
+margin:0 auto;
+text-align:left;
 --background-color:red;
 }
 
 /*Formatação do MENU da 2ª Coluna, "Conheça o CPT.*/
 #cabecalho{}
-
+	
 #logotipo{
-padding: 20px;
+padding:20px;
 }
-    #menu{
-background-color: #9b0000;
-color: #FFFFFF;
-padding: 15px;
-    
-/*Formatação do Menu Principal, Links Internos, HOME, Contado etc.*/
+
+/*Formatação do Menu Principal, Links Internos, Home, Contato etc.*/
 #menu{
 background-color: #9b0000;
-color: #FFFFFF;
+color:#FFFFFF;
 padding: 15px;
 }
 
 #menu li{
-display: inline;
+display:inline;
 margin-right: 35px;
 }
 
-/*Formatação para dividir o Site,em duas partes.*/
+/*Formatação para dividir o Site, em duas partes.*/
 #corpo{margin-top: 20px;}
-
+		
 #destaque{}
-
-#destaque_top{}
-
+		
+#destaques_top{}
+			
 #destaque_top_esquerda{
-width: 370px;
-float: left;
+width:370px;
+float:left;
 }
 
+/*Formatação da Largura das duas Colunas do Site.*/
 #destaque_top_direita{
-width: 370px;
+width:370px;
 float:left;
-margin-left: 10px;
+margin-left:10px;
 }
-/*Menu responsavel pela Formatação, do Títulos
-"Palavras Reservadas", "Qual a diferença...",
-formataem duas colunas*/
+
+/*Menu responsável pela Formatação, do Títulos
+"Palavras Reservadas",  "Qual a diferença...",
+formata em duas colunas.*/
 #destuqe_top_direita_especial{
 margin-top: 10px;
 }
-
 .destaque_top_direita_dividido{
-width: 177px;
+width:177px;
 float:left;
-padding-left: 4px;
-padding-right: 4px;
+padding-left:4px;
+padding-right:4px;
 }
 
+
+/*Menu */
 #destaques_bottom{
 color:#FFF;
 clear:both;
 }
 
 #destaque_bottom_esquerda{
-width: 470px;
-background-color: #9b0000;
-padding: 40px;
-float: left;
+width:470px;
+background-color:#9b0000;
+padding:40px;
+float:left;
 }
-
+    
 #destaque_bottom_direita{
-width: 170px;
-background-color: #406db7;
-padding: 10px;
-float: left;
-margin-left: 20px;
-margin-bottom: 20px;
-text-align: center;
+width:170px;
+background-color:#406db7;
+padding:10px;
+float:left;
+margin-left:20px;
+margin-bottom:20px;
+text-align:center;
 }
 
