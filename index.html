@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<head>
+		<title>Client-Side: HTML5, CSS3, JavaScript | Desenvolvimento WEB: Conhecimento sem limite.</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="content-language" content="pt" />
+		<meta name="description" content="No site Client-Side você vai encontrar artigos referentes ao 
+		desenvolvimento web clientside como HTML5; JavaScript; CSS3; e jQuery" />
+		<meta name="keywords" content="JavaScript, CSS3, HTML5, jQuery" />
+		<meta name="author" content="Douglas Marcori" >
+		<script type="text/javascript" src="js/comportamento.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/estilos.css" />
+	</head>
+	<body>
+		<div id="geral">
+			<div id="cabecalho">
+				<div id="logotipo">
+					<a href="/clientside/index.php">
+						<img src="img/logo_clientside.gif" title="Logo Client-Side" alt="Logo Client-Side" border="0" />
+					</a>
+				</div>
+				<div id="menu">
+					<ul>
+						<li><a href="/clientside/index.php">Home</a></li>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>jQuery</li>
+						<li>Acessibilidade</li>
+						<li>Usabilidade</li>
+						<li><a href="index.php?pag=fale-conosco">Contato</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="corpo">
+				<? if($pag == ""){?>
+				<div id="destaques">
+					<div id="destaques_top">
+						<div id="destaque_top_esquerda">
+							<h1>HTML é o novo HTML5</h1>
+							<p>
+							Em 2009, a WHATWG anunciou que a especificação do HTML5 estava em
+							processo para a última chamada. O plano nesta ocasião era      de
+							finalizar a especificação e publicar o HTML 5 em 2012.
+							Entretanto, a WHATWG percebeu que o HTML 4.01 ainda está       em
+							alta no mercado e há por grande parte dos desenvolvedores uma boa
+							demanda por novos recursos para o HTML.
+						    </p>
+							
+							<img src="img/html-e-o-novo-html5.jpg" title="HTML é o novo HTML5" alt="HTML é o novo HTML5" />
+							
+							<h1>O coração do jQuery</h1>
+							<p>Para aproveitar de todo o poder do jQuery basta usar o caractere $ e começar a programar.</p>
+							
+							<p>O caractere $ é um apelido para o construtor jQuery que pode ser visto no exemplo abaixo:</p>
+							
+							<pre>jQuery();</pre>
+							
+							<p>
+							O código acima é o construtor do jQuery. No entanto          para
+							facilitar o uso do jQuery, uma vez que dentro de todo o    código
+							JavaScript de um programa usa-se demasiadamente este  construtor,
+							criou-se um apelido que é justamente o caractere $ que      vimos
+							anteriormente.</p>
+						</div>
+						
+						<div id="destaque_top_direita">
+							<h1>Conheça o  CPT</h1>
+							<iframe title="YouTube video player" width="380" height="320" 
+							src="http://www.youtube.com/embed/3zVuBNfLCAg" frameborder="0" 
+							allowfullscreen></iframe> <span class="legenda">Cursos CPT: Um
+							facilitador para a sua capacitação profissional. Clique   aqui
+							para saber mais detalhes.</span>
+							
+							<div  id="destuqe_top_direita_especial">
+								<div class="destaque_top_direita_dividido">
+									<h1>Palavras Reservadas do JavaScript</h1>
+									
+									<p>
+									Não é permitido, criar variáveis com nomes de palavras
+									reservadas da Linguagem de Programação JavaScript. Veja
+									uma lista com todas estas palavras reservadas.</p>
+								</div>
+								<div class="destaque_top_direita_dividido">
+
+									<h1>Qual a diferença entre pseudo classes e pseudo elementos</h1>
+
+									<p>
+									Ao utilizar ou pesquisar por CSS pseudo-elementos, você pode ter
+									encontrado sintaxe diferente para :before ou           ::before,
+									especificamente na forma de dois-pontos duplo, em vez dos   dois
+									pontos tradicionais único. Isto parece um pouco confuso       no
+									início, mas há realmente uma explicação bastante simples.
+								    </p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="destaques_bottom">
+						<div id="destaque_bottom_esquerda">
+							<h1>Manipulando o DOM utilizando o método jQuery <code>.clone()</code></h1>
+							<p>
+							O <code>.clone()</code> é um método que executa uma      cópia
+							profunda do conjunto de elementos HTML determinado,      o que
+							significa que ele copia os elementos indicados e todos      os
+							elementos de seus descendentes e nós de texto.
+						    </p>
+						</div>
+						<div id="destaque_bottom_direita">
+							<img src="img/conheca_os_cursos_cpt.jpg" title="Conheça os CURSOS CPT" alt="Conheça os CURSOS CPT" />
+							<h1>Conheça os CURSOS CPT</h1>
+						</div>
+					</div>
+				</div>
+				<?
+				}else{
+					include($pag.".html");
+				}?>
+			</div>
+			<div id="rodape">
+				<div id="navegacao">
+					<div class="rodape_navegacao_itens">
+						<h1>&lt;html&gt;</h1>
+						<ul>
+							<li><a href="index.php?pag=html-e-o-novo-html">HTML é o novo HTML5</a></li>
+							<li>Tags e elementos</li>
+							<li>Quando usar os elementos</li>
+							<li>HTML "b" e "strong"</li>
+							<li>O HTML em seu dia-a-dia</li>
+						</ul>
+					</div>
+					<div class="rodape_navegacao_itens">
+						<h1>&lt;style&gt;</h1>
+						<ul>
+							<li>Qual a diferença entre pseudo-classes e pseudo-elementos</li>
+						</ul>
+					</div>
+					<div class="rodape_navegacao_itens">
+						<h1>&lt;script&gt;</h1>
+						<ul>
+							<li>Browser Object Model – BOM</li>
+							<li>Como funciona a função eval do JavaScript</li>
+							<li>Manipulando o DOM utilizando o método jQuery .clone()</li>
+							<li>Acessando todos os cabeçalhos de um documento HTML</li>
+							<li>utilizando jQuery</li>
+							<li>Colorindo linhas específicas de uma tabela HTML com a ajuda do jQuery</li>
+							<li>Palavras Reservadas do JavaScript</li>
+						</ul>
+					</div>
+					<div class="rodape_navegacao_itens">
+						<h1>Acessibilidade Usabilidade SEO</h1>
+						<ul>
+							<li>Primeiros Passos no Ambiente INTERNET</li>
+							<li>Estatísticas dos usuários de browser segundo a w3Schools</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="direitos_reservados">
+				<hr />
+				© 2021-2023. Todos Os Direitos São Reservados.
+			</div>
+		</div>
+	</body>
+</html>
+
+</html>
